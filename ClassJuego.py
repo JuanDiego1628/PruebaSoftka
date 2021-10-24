@@ -73,7 +73,7 @@ class Juego():
         if i == ronda:
             print("El Juego ha finalizado")
         else:
-            c = int(input(f"\n==¿Desea usted continuar Jugando?== \n1.Si(!Si pierde perdera el dinero acumulado)  2.No:(¡Se lleva su premio acumulado) "))
+            c = int(input(f"\n==¿Desea usted continuar Jugando?== \n1.Si(!Si pierde perdera el dinero acumulado)  2.No:(¡Se lleva su premio acumulado!) "))
             while True:
                 if (c == 1) or (c == 2):
                     break
